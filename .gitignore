@@ -2,8 +2,25 @@
 
 # dependencies
 /node_modules
+/build
+/dist
+.env*
+*.local
+
 /.pnp
 .pnp.js
+
+ios/Pods/
+ios/*.mobileprovision
+ios/*.p12
+
+# Android
+android/app/*.keystore
+android/key.properties
+
+# Tooling
+.DS_Store
+*.log
 
 # testing
 /coverage
