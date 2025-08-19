@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Graphos</string>
+    <string name="title_activity_main">Graphos</string>
+    <string name="package_name">com.yourname.graphos</string>
+    <string name="custom_url_scheme">com.yourname.graphos</string>
+</resources>
