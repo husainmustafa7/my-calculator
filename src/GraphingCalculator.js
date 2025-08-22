@@ -8,15 +8,6 @@ import { Share } from "@capacitor/share";
 import { Clipboard } from "@capacitor/clipboard";
 import { StatusBar, Style } from "@capacitor/status-bar";
 
-/**
- * Graphos — Desmos-like Graphing Calculator (React + Tailwind)
- * Additions in this version:
- * - Auto-analysis: x-intercepts, y-intercepts, local min/max, intersections (explicit curves)
- * - Markers on canvas + Analysis sidebar list (click to center)
- * - Tap canvas to drop a label; long-press to copy coords
- * - Everything else preserved (parametric, polar, implicit, inequalities, sliders, menu, export/share, responsive canvas, iOS safe areas)
- */
-
 const casRef = { current: null };
 
 // ------- Stats (jStat) lazy loader -------
